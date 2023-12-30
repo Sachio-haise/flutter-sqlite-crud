@@ -495,9 +495,7 @@ class _CardState extends State<Card> {
                         width: 5,
                       ),
                       Text('\$${widget.price}',
-                          sty
-                                          ProductDB().delete(widget.id);
-                                          widget.fetchProducts();le: const TextStyle(
+                          style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,
                               color: Color(0xff2A977D)))
