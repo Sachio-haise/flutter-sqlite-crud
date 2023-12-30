@@ -547,13 +547,6 @@ class _CardState extends State<Card> {
                                       fontSize: 16.0,
                                       fontWeight: FontWeight.bold,
                                     ),
-
-    git init
-    git add .
-    git commit -m "first commit"
-    git branch -M master
-    git remote add origin https://github.com/Sachio-haise/flutter-sqlite-crud.git
-    git push -u origin master
                                     middleText:
                                         "Are you sure you want to delete \n this product (${widget.name}) ?",
                                     textCancel: "Cancel",
